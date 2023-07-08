@@ -5,8 +5,17 @@ authors = ["brunoczim <brunoczim@gmail.com>"]
 edition = "2018"
 
 [dependencies]
+andiskaz = "^0.2"
 anyhow = "^1.0"
 async-trait = "^0.1"
+
+[dependencies.gardiz]
+version = "0.1.1"
+features = ["impl-serde"]
+
+[dependencies.serde]
+version = "^1.0"
+features = ["derive"]
 
 [dependencies.tokio]
 version = "^1.29"
